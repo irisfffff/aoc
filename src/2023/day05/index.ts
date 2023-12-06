@@ -202,7 +202,7 @@ export const part2 = (data: string[]) => {
 };
 
 // ** Change file path *
-const data = readByLine("./day05/data");
+const data = readByLine("../2023/day05/data");
 // Do not run if empty file or test mock readFileSync
 console.log(">>> Part 1:", part1(data));
 console.log(">>> Part 2:", part2(data));

@@ -74,6 +74,6 @@ export const part2 = (data: string[]) => {
 };
 
 // Outputs answer, do not change
-const data = readByLine("./day01/data");
+const data = readByLine("../2023/day01/data");
 console.log(part1(data));
 console.log(part2(data));
